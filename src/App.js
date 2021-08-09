@@ -22,6 +22,7 @@ function App() {
     })
     
     Quagga.onDetected((data) => {
+      alert('Barcode detected! Checkout console for more information')
       console.log(data)
     })
   }, [])
